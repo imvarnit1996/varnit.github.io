@@ -2,203 +2,109 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varnit Rohilla</title>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+        body {
+            background: #e3edf7;
+        }
 
-  <title>Varnit-Rohilla</title>
+        h1 {
+            font-family: sans-serif;
+            font-weight: normal;
+            font-size: 25px;
+            letter-spacing: 4px;
+            padding: 200px 0 50px;
+            color: #555;
+            text-align: center;
 
-  <!-- Bootstrap core CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        }
 
+        .social-media {
+            display: flex;
+            justify-content: center;
+        }
 
+        img {
+            display: flex;
+            height: 200px;
+            width: 200px;
+            margin: 50px 500px 0px;
+            border-radius: 8px;
+            justify-content: center;
+            align-items: center;
 
-  <!--google fonts-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900">
+        }
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
-  <link
-    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-    rel="stylesheet">
+        a {
+            display: flex;
+            background: #e3edf7;
+            height: 75px;
+            width: 75px;
+            margin: 0px 15px;
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+            transition: transform 0.5s;
+        }
 
-  <link rel="stylesheet"
-    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        a i {
+            font-size: 35px;
+            color: #777;
+            border: 1px solid rgba(0, 0, 0, 0);
+            transition: transform 0.5s;
+        }
 
-  <style>
-    body {
-      background: url("./VR-BG-Img.jpg") no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
-      -o-background-size: cover;
-    }
+        a:hover {
+            box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px -10px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(0, 0, 0, 0.01);
+            transform: translateY(2px);
+        }
 
-    .myself {
-      display: none;
-    }
-
-    .main {
-      color: #fff;
-      font-family: Orbitron;
-      font-size: 50px;
-      font-weight: 670;
-      margin-top: 250px;
-    }
-
-
-    .header .navbar-nav>li>a {
-      background-color: transparent;
-      color: #fff;
-      display: inline-block;
-      font-family: "Roboto", sans-serif;
-      font-size: 15px;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      margin-left: 15px;
-      margin-right: 15px;
-      padding-left: 0;
-      padding-right: 15px;
-      text-transform: uppercase;
-      padding-top: 15px;
-      padding-bottom: 15px;
-
-    }
-
-    .fill a {
-      position: relative;
-    }
-
-    .fill a:after {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      width: 0%;
-      content: '.';
-      color: transparent;
-      height: 1px;
-
-    }
-
-    .fill a:hover:after {
-      z-index: -10;
-      animation: fill 1s forwards;
-      -webkit-animation: fill 1s forwards;
-      -moz-animation: fill 1s forwards;
-    }
-
-    /* Keyframes */
-    @-webkit-keyframes fill {
-      0% {
-        width: 0%;
-        height: 1px;
-      }
-
-      50% {
-        width: 100%;
-        height: 1px;
-      }
-
-      100% {
-        width: 100%;
-        height: 100%;
-        background: #808080;
-      }
-    }
-
-    .custom-toggler.navbar-toggler {
-
-      border-color: white;
-    }
-
-    .custom-toggler .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
-  </style>
-
+        a i {
+            transform: scale(0.90);
+        }
+    </style>
 </head>
 
 <body>
 
-  <header class=" header">
-
-    <nav class="navbar-nav navbar-expand-md fill">
-      <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
-        data-target="#collapsibleNavbar" aria-expanded="false">
-        <span class="navbar-toggler-icon mx-auto"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav mx-auto ">
-          <li class="nav-item">
-            <a class="nav-link" target="_blank"
-              href="https://docs.google.com/document/u/1/d/137regB9w_hCZbQuN-tKO8Sg4PNbAP4Ko7X8OaK033fU/edit#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://in.linkedin.com/in/varnit-rohilla">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href=" https://www.instagram.com/varnitrohilla/">Instagram</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://www.facebook.com/mvarnitrohilla">Facebook</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/imvarnit1996">Github</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" target="_blank"
-              href="https://www.instagram.com/6a.m.photography/">6AM
-              Photography
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <!-- Page Content -->
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 main ">
-          <h1 style="color: white; font-weight: 700;">Varnit Rohilla</h1>
-          <span class="myself">SDE@ <span style="color:orangered;">Fiserv Inc.</span></span>
-          <span class=" myself"><i class="devicon-javascript-plain colored"></i>
-            JavaScript Development</span>
-          <span class=" myself"><i class="devicon-react-original colored"></i>
-            React React-native development</span>
-          <span class="myself"> <i class="devicon-java-plain colored"></i>
-            java Development
-          </span>
+    <div class="card">
+        <!-- <img src="./VR-BG-Img.jpg" alt="Avatar"> -->
+        <div class="container">
+            <h1>
+                Varnit Rohilla
+                <br>
+                Software Developer
+            </h1>
         </div>
-      </div>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/mvarnitrohilla/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/varnitrohilla/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/imvarnit1996" target="_blank"><i class="fab fa-github"></i></i></a>
+            <a href="https://www.instagram.com/varnitrohilla/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/6a.m.photography/" target="_blank"><i
+                    class="fas fa-camera-retro"></i></a>
+        </div>
+
     </div>
 
-  </section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-    (function () {
-
-      var mySelf = $(".myself");
-      var myIndex = -1;
-
-      function showNext() {
-        ++myIndex;
-        mySelf.eq(myIndex % mySelf.length)
-          .fadeIn(1000)
-          .delay(1000)
-          .fadeOut(1000, showNext);
-      }
-
-      showNext();
-
-    })();
-  </script>
 
 </body>
 
