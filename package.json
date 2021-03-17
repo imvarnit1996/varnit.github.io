@@ -1,0 +1,8 @@
+{
+  "name": "varnit.github.io",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "author": "Varnit Rohilla",
+  "license": "MIT"
+}

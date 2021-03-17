@@ -4,107 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varnit Rohilla</title>
-    <!-- <link rel="stylesheet" href="style.css"/> -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBe0JkFNjloLkslJPwGGQ3pIEgl1AC30eo",
+            authDomain: "varnitrohilla-ml-ed193.firebaseapp.com",
+            databaseURL: "https://varnitrohilla-ml-ed193-default-rtdb.firebaseio.com",
+            projectId: "varnitrohilla-ml-ed193",
+            storageBucket: "varnitrohilla-ml-ed193.appspot.com",
+            messagingSenderId: "465417043849",
+            appId: "1:465417043849:web:f6d9022ffe16cb648b2b58",
+            measurementId: "G-Y8M92LM2KK"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="stylesheet" href="styles.css" />
+    <title>Varnit Rohilla</title>
 
-        body {
-            background: #e3edf7;
-        }
-
-        h1 {
-            font-family: sans-serif;
-            font-weight: normal;
-            font-size: 25px;
-            letter-spacing: 4px;
-            padding: 200px 0 50px;
-            color: #555;
-            text-align: center;
-
-        }
-
-        .social-media {
-            display: flex;
-            justify-content: center;
-        }
-
-        img {
-            display: flex;
-            height: 200px;
-            width: 200px;
-            margin: 50px 500px 0px;
-            border-radius: 8px;
-            justify-content: center;
-            align-items: center;
-
-        }
-
-        a {
-            display: flex;
-            background: #e3edf7;
-            height: 75px;
-            width: 75px;
-            margin: 0px 15px;
-            border-radius: 8px;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-            transition: transform 0.5s;
-        }
-
-        a i {
-            font-size: 35px;
-            color: #777;
-            border: 1px solid rgba(0, 0, 0, 0);
-            transition: transform 0.5s;
-        }
-
-        a:hover {
-            box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-                inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7),
-                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-                0px 12px -10px rgba(0, 0, 0, 0.05);
-            border: 1px solid rgba(0, 0, 0, 0.01);
-            transform: translateY(2px);
-        }
-
-        a i {
-            transform: scale(0.90);
-        }
-    </style>
 </head>
 
 <body>
 
     <div class="card">
         <!-- <img src="./VR-BG-Img.jpg" alt="Avatar"> -->
-        <div class="container">
+        <section class="container">
             <h1>
                 Varnit Rohilla
                 <br>
                 Software Developer
             </h1>
-        </div>
-
-        <div class="social-media">
+        </section>
+        <section class="social-media">
             <a href="https://www.facebook.com/mvarnitrohilla/" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://www.linkedin.com/in/varnitrohilla/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/imvarnit1996" target="_blank"><i class="fab fa-github"></i></i></a>
             <a href="https://www.instagram.com/varnitrohilla/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.instagram.com/6a.m.photography/" target="_blank"><i
                     class="fas fa-camera-retro"></i></a>
-        </div>
+            <a href="https://docs.google.com/document/d/1w6_7B_PmU-U144CCF3P_-3n6yRL6LAspvF9Rd5nQ3Bc/edit?usp=sharing"
+                target="_blank"><i class="far fa-file"></i></a>
 
+        </section>
+        <div class="definitions" id="node"></div>
     </div>
-
-
+    <script type="text/babel" src="/index.js" data-type="module"></script>
 
 </body>
 
