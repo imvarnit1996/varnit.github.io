@@ -52,3 +52,31 @@ var definitions = [
       "https://dev.to/__namc/what-is-currying--3l2a#:~:text=Currying%20is%20a%20technique%20that,a%20function%20as%20its%20result.",
   },
 ];
+
+var info = [
+  {
+    url: "https://www.facebook.com/mvarnitrohilla/",
+    icon: "fab fa-facebook",
+  },
+  {
+    url: "https://www.linkedin.com/in/varnitrohilla/",
+    icon: "fab fa-linkedin",
+  },
+  {
+    url: "https://github.com/imvarnit1996",
+    icon: "fab fa-github",
+  },
+  {
+    url: "https://www.instagram.com/varnitrohilla/",
+    icon: "fab fa-instagram",
+  },
+  {
+    url: "https://www.instagram.com/6a.m.photography/",
+    icon: "fas fa-camera-retro",
+  },
+  {
+    url:
+      "https://docs.google.com/document/d/1w6_7B_PmU-U144CCF3P_-3n6yRL6LAspvF9Rd5nQ3Bc/edit?usp:sharing",
+    icon: "far fa-file",
+  },
+];
