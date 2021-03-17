@@ -1,4 +1,4 @@
-exports.array_definitions = [
+var definitions = [
   {
     title: "Library vs Framework",
     definition:
